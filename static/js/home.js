@@ -143,7 +143,7 @@ var MAC={
     },
     'Qrcode':{
         'Init':function(){
-            $('.mac_qrcode').attr('src','//api.maccms.com/qrcode/?w=150&h=150&url=' + MAC.Url);
+            $('.mac_qrcode').attr('src','//api.maccms.com/qrcode/index/w/150/h/150/url/' + MAC.Url);
         }
     },
     'Shorten': {
@@ -155,7 +155,7 @@ var MAC={
         },
         'Get':function(url,call){
             url=url||location.href;
-            MAC.Ajax('//api.maccms.com/shorten/?callback=callback&url='+ encodeURIComponent(url),'get','jsonp','',function(r){
+            MAC.Ajax('//api.maccms.com/shorten/index/url/'+ encodeURIComponent(url),'get','jsonp','',function(r){
                 if (r.code == 1) {
                     if($('.mac_shorten').length>0) {
                         $('.mac_shorten').val(r.data.url_short);
@@ -259,7 +259,7 @@ var MAC={
         },
         'Submit':function(){
             var $s = $('.mac_score').find("input[name='score']").val();
-            MAC.Ajax(maccms.path+'/ajax/score?mid='+$('.mac_score').attr('data-mid')+'&id='+$('.mac_score').attr('data-id') + '&score='+ $s,'get','json','',function(r){
+            MAC.Ajax(maccms.path+'/index.php/ajax/score?mid='+$('.mac_score').attr('data-mid')+'&id='+$('.mac_score').attr('data-id') + '&score='+ $s,'get','json','',function(r){
                 MAC.Pop.Msg(100,20,r.msg,1000);
                 if(r.code==1){
                     MAC.Score.View(r);
@@ -289,7 +289,7 @@ var MAC={
                 },
                 click: function(score, evt) {
 
-                    MAC.Ajax(maccms.path+'/ajax/score?mid='+$('.mac_star').attr('data-mid')+'&id='+$('.mac_star').attr('data-id')+'&score='+(score*2),'get','json','',function(r){
+                    MAC.Ajax(maccms.path+'/index.php/ajax/score?mid='+$('.mac_star').attr('data-mid')+'&id='+$('.mac_star').attr('data-id')+'&score='+(score*2),'get','json','',function(r){
                         if(json.status == 1){
                             $('.star_tips').html(r.data.score);
                         }else{
@@ -309,7 +309,7 @@ var MAC={
                 var $that = $(this);
                 if($that.attr("data-id")){
 
-                    MAC.Ajax(maccms.path + '/ajax/digg.html?mid='+$that.attr("data-mid")+'&id='+$that.attr("data-id")+'&type='+$that.attr("data-type"),'get','json','',function(r){
+                    MAC.Ajax(maccms.path + '/index.php/ajax/digg.html?mid='+$that.attr("data-mid")+'&id='+$that.attr("data-id")+'&type='+$that.attr("data-type"),'get','json','',function(r){
                         $that.addClass('disabled');
                         if(r.code == 1){
                             if($that.attr("data-type")=='up'){
