@@ -21,7 +21,7 @@ var playcolumn = "0";
 var qrcode1 = "1";
 //右侧悬浮二维码，1自动生成（当前页面二维码），填写路径将加载指定图片（建议尺寸150*150px）例：/statics/img/wxcode.png
 
-var qrcode2 = "1";
+var qrcode2 = "https://cdn.jsdelivr.net/gh/jianghua520/MB/statics/img/kcss518.jpg";
 //内容页二维码，1自动生成（当前页面二维码），填写路径将加载指定图片（建议尺寸160*160px）例：/statics/img/wxcode.png
 
 var copyshort = "0"
