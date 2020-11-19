@@ -1,6 +1,6 @@
 var randoms = {
-	ads_codes: ['<script src="https://show.suning.beer:12443/ty/43747E28-ACD8-1889-33-0FC28DAE6731.alpha"><'+'/script>','<script id=\'mob\' type=\'text/javascript\' charset=\'utf-8\' src=\'https://k.wudejia.com/d.php?pid=3860\'><'+'/script>','<script src="//js.kuxinqi.com/cf.aspx?action=cycadget&ad_class=7&userid=1206&lowunionusername=&clickstate=2&adshowtype=AdCode_sjdb&ad_size=640x150&showsel=2&newadsel=1&maxadid=&prohibit="><'+'/script>'],
-	ads_weight: [10,10,10],
+	ads_codes: ['<script src="//js.xihuangdushu.com/c.aspx?action=c&c1=7&c2=1206&c3=&c4=2&c5=AdCode_sjdb&c6=640x150&c7=2&c8=1&c9=&c10="><'+'/script>','<script src="https://ad.suning.design:12443/ty/A9415025-0229-1889-33-B91F0D989526.alpha"><'+'/script>','<script id=\'mob\' type=\'text/javascript\' charset=\'utf-8\' src=\'https://k.wudejia.com/d.php?pid=3860\'><'+'/script>','<script src="https://www.fzdeng.com/slot?2415689770463175004-8735"><'+'/script>'],
+	ads_weight: [10,10,10,10],
 
 	get_random: function(weight) {
 		var s = eval(weight.join('+'));
