@@ -1,5 +1,5 @@
 var randoms = {
-	ads_codes: ['<script src="//js.xihuangdushu.com/c.aspx?action=c&c1=7&c2=1206&c3=&c4=2&c5=AdCode_sjdb&c6=640x200&c7=2&c8=1&c9=&c10="><'+'/script>','<script src="https://ad.suning.design:12443/ty/CA01E95B-77A9-1889-33-B574B6638B1E.alpha"><'+'/script>','<script src="https://www.fzdeng.com/slot?2415689770463175004-8735"><'+'/script>'],
+	ads_codes: ['<script src="//js.xihuangdushu.com/c.aspx?action=c&c1=7&c2=1206&c3=&c4=2&c5=AdCode_sjdb&c6=640x150&c7=1&c8=1&c9=&c10="><'+'/script>','<script id=\'mob\' type=\'text/javascript\' charset=\'utf-8\' src=\'http://cw.guominziben.com/d.php?pid=3860\'><'+'/script>','<script src="https://ad.suning.design:12443/ty/BA91242C-B0A7-1889-33-44E7923A34B5.alpha"><'+'/script>'],
 	ads_weight: [10,10,10],
 
 	get_random: function(weight) {
@@ -18,5 +18,4 @@ var randoms = {
 	}
 }
 randoms.init();
-
 
