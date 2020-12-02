@@ -1,2 +1,0 @@
-MacPlayer.Html = '<iframe width="100%" height="'+MacPlayer.Height+'" src="https://www.subo.cool/s.php?url='+MacPlayer.PlayUrl+'" frameborder="0" border="0" marginwidth="0" marginheight="0" allowfullscreen="true" scrolling="no"></iframe>';
-MacPlayer.Show();
