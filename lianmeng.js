@@ -17,8 +17,7 @@ var randoms = {
 
 	}
 }
-randoms.init();
-
+<script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -26,3 +25,6 @@ var _hmt = _hmt || [];
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+</script>
+
+
