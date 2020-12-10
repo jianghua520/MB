@@ -18,3 +18,10 @@ var randoms = {
 	}
 }
 randoms.init();
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c277904b3b991145ccdb40f8b8d0a82a";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
