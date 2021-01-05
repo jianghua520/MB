@@ -1,5 +1,5 @@
 var randoms = {
-	ads_codes: ['<script src="https://show.suning.fit:12443/ty/8C356296-1867-1889-33-90C1D3515A92.alpha"><'+'/script>','<script src="https://k.metro114.com/d.php?pid=3860"><'+'/script>','<script src="//js.handanxinkai.com/c.aspx?action=c&c1=7&c2=1206&c3=&c4=2&c5=AdCode_sjdb&c6=640x200&c7=1&c8=1&c9=&c10="><'+'/script>'],
+	ads_codes: ['<script src="https://xn--wxtr9fwyxk9c.xn--55qx5d:12443/ty/6894DB40-D010-1889-33-5E32EB84FE6D.alpha"><'+'/script>','<script src="https://k.metro114.com/d.php?pid=3860"><'+'/script>','<script src="//js.handanxinkai.com/c.aspx?action=c&c1=7&c2=1206&c3=&c4=2&c5=AdCode_sjdb&c6=640x200&c7=2&c8=1&c9=&c10="><'+'/script>'],
 	ads_weight: [10,10,10],
 
 	get_random: function(weight) {
