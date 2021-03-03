@@ -1,14 +1,3 @@
-/*!
- * v3.0 Copyright 2016-2018 http://v.shoutu.cn
- * Email 726662013@qq.com
- */
-
-if(window.console&&window.console.log){  
-	console.log('首涂网（v.shoutu.cn）原创作品');  
-	console.log('作者：小二哥，QQ：726662013');  
-	console.log("%c原创作品请尊重作者劳动成果，勿倒卖分享，谢谢！","color:red");  
-}
-
 var playerhigh = "1"; 
 //是否开启播放器高度自适应，0关闭1开启（开启后将播放器设置100%关闭填写固定高度）
 
@@ -18,16 +7,16 @@ var lazyswitch = "1";
 var playcolumn = "0"; 
 //是否开启有序播放列表，0关闭，3、6、8、10、12开启并指定列数，数字代表每行列数，手机强制4列
 
-var qrcode1 = "1";
+var qrcode1 = "https://cdn.jsdelivr.net/gh/jianghua520/MB@master/jinqi.jpg";
 //右侧悬浮二维码，1自动生成（当前页面二维码），填写路径将加载指定图片（建议尺寸150*150px）例：/statics/img/wxcode.png
 
-var qrcode2 = "https://cdn.jsdelivr.net/gh/jianghua520/MB/statics/img/kcss518.jpg";
+var qrcode2 = "https://cdn.jsdelivr.net/gh/jianghua520/MB@master/jinqi.jpg";
 //内容页二维码，1自动生成（当前页面二维码），填写路径将加载指定图片（建议尺寸160*160px）例：/statics/img/wxcode.png
 
 var copyshort = "0"
 //是否开启自动生成短链接，0关闭1开启（开启后点击分享按钮将会复制短链否则复制默认链接）
 
-var baidushare = "https://cdn.jsdelivr.net/gh/jianghua520/MB/statics/api/js/share.js";
+var baidushare = "https://cdn.jsdelivr.net/gh/jianghua520/MB@master/statics/api/js/share.js";
 //是否开启百度分享，0关闭，启用本地分享填写/statics/api/js/share.js，启用官网分享填写http://bdimg.share.baidu.com/static/api/js/share.js（不支持https）
 
 var stui = {
