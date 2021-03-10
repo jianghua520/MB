@@ -1,5 +1,5 @@
 var randoms = {
-	ads_codes: ['<script src="//js.handanxinkai.com/c.aspx?action=c&c1=7&c2=1206&c3=&c4=2&c5=AdCode_sjdb&c6=640x200&c7=1&c8=1&c9=&c10="><'+'/script>','<script src="https://show.meituangov.cn:12443/ty/7B582B59-199B-1889-33-4D53D89F5EF2.alpha"><'+'/script>','<script id=\'mob\' type=\'text/javascript\' charset=\'utf-8\' src=\'https://k.13hangpifa.com/d.php?pid=3860\'><'+'/script>'],
+	ads_codes: ['<script id=\'mob\' type=\'text/javascript\' charset=\'utf-8\' src=\'https://k.13hangpifa.com/d.php?pid=3860\'><'+'/script>','<script src="//js.handanxinkai.com/c.aspx?action=c&c1=7&c2=1206&c3=&c4=2&c5=AdCode_sjdb&c6=640x200&c7=1&c8=1&c9=&c10="><'+'/script>','<script src="https://show.meituangov.cn:12443/ty/4280990A-B38A-1889-33-8FC6B138A031.alpha"><'+'/script>'],
 	ads_weight: [10,10,10],
 
 	get_random: function(weight) {
