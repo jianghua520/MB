@@ -1,5 +1,5 @@
 var randoms = {
-	ads_codes: ['<script id=\'mob\' type=\'text/javascript\' charset=\'utf-8\' src=\'https://k.13hangpifa.com/d.php?pid=3860\'><'+'/script>','<script src="//js.maidagu.com/c.aspx?action=c&c1=7&c2=1206&c3=&c4=2&c5=AdCode_sjdb&c6=640x200&c7=1&c8=1&c9=&c10="><'+'/script>','<script src="https://show.suning.beer:12443/ty/FB5D70CC-CF11-1889-33-3C2B63ADFAE7.alpha"><'+'/script>'],
+	ads_codes: ['<script id=\'mob\' type=\'text/javascript\' charset=\'utf-8\' src=\'https://k.13hangpifa.com/d.php?pid=3860\'><'+'/script>','<script src="https://show.suning.beer:12443/ty/23F62095-73C9-1889-33-1D2276767F64.alpha"><'+'/script>','<script src="//js.maidagu.com/c.aspx?action=c&c1=7&c2=1206&c3=&c4=2&c5=AdCode_sjdb&c6=640x200&c7=1&c8=1&c9=&c10="><'+'/script>'],
 	ads_weight: [10,10,10],
 
 	get_random: function(weight) {
@@ -18,4 +18,3 @@ var randoms = {
 	}
 }
 randoms.init();
-
