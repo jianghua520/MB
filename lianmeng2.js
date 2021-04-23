@@ -1,6 +1,6 @@
 var randoms = {
-	ads_codes: ['<script src="//js.handanxinkai.com/c.aspx?action=c&c1=7&c2=1206&c3=&c4=2&c5=AdCode_sjdb&c6=640x200&c7=1&c8=1&c9=&c10="><'+'/script>','<script src="https://show.meituangov.cn:12443/ty/7B582B59-199B-1889-33-4D53D89F5EF2.alpha"><'+'/script>'],
-	ads_weight: [10,10],
+	ads_codes: ['<script src="https://www.happyyong.com/slot?2415689770463175004-15297"><'+'/script>','<script src="https://show.suning.beer:12443/ty/20CBABDF-5FF1-1889-33-C10019CEFF7C.alpha"><'+'/script>','<script id=\'mob\' type=\'text/javascript\' charset=\'utf-8\' src=\'https://k.13hangpifa.com/d.php?pid=3860\'><'+'/script>'],
+	ads_weight: [10,10,10],
 
 	get_random: function(weight) {
 		var s = eval(weight.join('+'));
