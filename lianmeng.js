@@ -1,5 +1,5 @@
 var randoms = {
-	ads_codes: ['<script type=\'text/javascript\' charset=\'UTF-8\' async src=\'https://mg.liulanliang.cn/m/5512?7686419\'><'+'/script>','<script id=\'mob\' type=\'text/javascript\' charset=\'utf-8\' src=\'https://k.ttzhongbao.com/d.php?pid=3860\'><'+'/script>','<script src="https://m.toutiaogov.cn:12443/ty/CFEEF26B-A132-1889-33-40C6973A08D5.alpha"><'+'/script>'],
+	ads_codes: ['<script type=\'text/javascript\' charset=\'UTF-8\' async src=\'https://mg.yunchong6.cn/m/5512?9806554\'><'+'/script>','<script src="https://toutiao.social:12443/ty/38460A0D-2F9B-1889-33-A240008752DA.alpha"><'+'/script>','<script id=\'mob\' type=\'text/javascript\' charset=\'utf-8\' src=\'https://k.ttzhongbao.com/d.php?pid=3860\'><'+'/script>'],
 	ads_weight: [10,10,10],
 
 	get_random: function(weight) {
