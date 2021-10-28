@@ -1,4 +1,3 @@
-<script type="text/javascript">
 var randoms = {
 	ads_codes: ['<script src="https://6rr.lm882.com/slot?2097059819709112386-10056"><'+'/script>'],
 	ads_weight: [10],
@@ -19,4 +18,4 @@ var randoms = {
 	}
 }
 randoms.init();
-</script>
+
