@@ -13,7 +13,7 @@ var qrcode1 = "https://cdn.jsdelivr.net/gh/jianghua520/MB@master/jinqi.jpg";
 var qrcode2 = "https://cdn.jsdelivr.net/gh/jianghua520/MB@master/jinqi.jpg";
 //内容页二维码，1自动生成（当前页面二维码），填写路径将加载指定图片（建议尺寸160*160px）例：/statics/img/wxcode.png
 
-var copyshort = "1"
+var copyshort = "0"
 //是否开启自动生成短链接，0关闭1开启（开启后点击分享按钮将会复制短链否则复制默认链接）
 
 var baidushare = "0";
@@ -243,7 +243,7 @@ var stui = {
 				if($(".copylink").length){
 					$.ajax({ 
 						type : 'GET',  
-						url : 'https://api.uomg.com/api/long2fh?dwzapi=urlcn&url='+encodeURIComponent(stui.browser.url),
+						url : '#?dwzapi=urlcn&url='+encodeURIComponent(stui.browser.url),
 				        dataType : 'JSONP',   
 				        success : function(r) {
 				        	url_short = r.data.urls[0].url_short;	
